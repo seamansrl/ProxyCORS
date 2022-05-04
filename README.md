@@ -1,4 +1,4 @@
-Hoy es ese dia en donde terminaste un proyecto en JavaScript, Node.JS o TypeCode el cual conecta con una API externa y cuando lo queres probar no funcionan nada. Desesperado empezas a buscar fallas en el código, pero no encontras razón alguna hasta que ves el siguiente cartel:
+Hoy es ese dÍa en donde terminaste un proyecto en JavaScript, Node.JS o TypeCode el cual conecta con una API externa y cuando lo queres probar no funcionan nada. Desesperado empezas a buscar fallas en el código, pero no encontras razón alguna hasta que ves el siguiente cartel:
 
 
 Access to XMLHttpRequest at 'http://……….' from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
