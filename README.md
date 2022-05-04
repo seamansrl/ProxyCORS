@@ -1,11 +1,11 @@
 # Introducción
 
-Hoy es ese dÍa en donde terminaste un proyecto en JavaScript, Node.JS o TypeCode el cual conecta con una API externa y cuando lo queres probar no funcionan nada. Desesperado empezas a buscar fallas en el código, pero no encontras razón alguna hasta que ves el siguiente cartel:
+Hoy es ese dÍa en donde terminaste un proyecto en JavaScript, Node.JS o TypeCode el cual conecta con una API externa y cuando lo queres probar no funcionan nada. Desesperado empezás a buscar fallas en el código, pero no encontras razón alguna hasta que ves el siguiente cartel:
 
 
 Access to XMLHttpRequest at 'http://……….' from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 
-¿Pero que paso acá? ¿Qué es esto?, te preguntes.
+Pero... ¿Qué paso acá? ¿Qué es esto?, te preguntes.
 
 Cuando se abre una página web, cargar datos de servidores ajenos está, en teoría, estrictamente prohibido. Sin embargo, puede haber excepciones: si los administradores de ambas webs han acordado trabajar juntos, no hay por qué evitar el intercambio. En estos casos, el llamado cross-origin resource sharing (CORS) regula la colaboración. 
 
