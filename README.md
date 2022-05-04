@@ -45,15 +45,21 @@ Una vez que este en ejecución solo debemos pasar por el proxy antes de mandar l
 
 O sea que si originalmente nuestro código era asi:
 
+```javascript
 GetData.open('POST', 'http://' + ip + '/……', true);
+```
 
 Ahora deberá ser asi:
 
+```javascript
 GetData.open('POST', 'http://localhost:19191?url=
 http://' + ip + '/……', true);
+```
 
 En caso que debamos hacer una autenticación BASIC no podremos usar el típico truco de mandarlo via URL (http://USUARIO:CLAVE@www.....), sino que deberemos insertar esos datos en el propio header asi:
 
+```javascript
 GetData.setRequestHeader('Authorization', 'Basic ' + btoa(unescape(encodeURIComponent(USUARIO + ':' + CLAVE))));
+```
 
 Eso es todo. Espero que les guste y les sea útil.
