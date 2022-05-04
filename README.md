@@ -39,7 +39,7 @@ Hay muchas soluciones para saltar estas “seguridades”, una de ellas es la ac
 
 La Aplicación es tipo terminal a la cual alcanza con solo iniciar, aunque podemos especificar algunos valores de personalización de ejecución como ser:
 
-- a: Asigna la IP de escucha de solicitudes, esto es útil si se tiene mas de una placa de red. De forma estándar inicia como LocalHiost
+- a: Asigna la IP de escucha de solicitudes, esto es útil si se tiene mas de una placa de red. De forma estándar inicia como LocalHost
 -	p: Asigna un puerto de escucha, por defecto es el 19191
 -	t: Establece un TimeOut para el seridor de destino, por defecto esta en 5 segundos (Es un poco corto pero en general esta bien)
 -	k: Establece un Keep User Agent
