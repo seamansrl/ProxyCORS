@@ -64,3 +64,9 @@ GetData.setRequestHeader('Authorization', 'Basic ' + btoa(unescape(encodeURIComp
 ```
 
 Eso es todo. Espero que les guste y les sea útil.
+
+# Seguime en:
+https://www.linkedin.com/in/fernando-p-maniglia/
+
+# Conocenos más en:
+https://www.seamansrl.com.ar
