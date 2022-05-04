@@ -1,3 +1,5 @@
+# Introducción
+
 Hoy es ese dÍa en donde terminaste un proyecto en JavaScript, Node.JS o TypeCode el cual conecta con una API externa y cuando lo queres probar no funcionan nada. Desesperado empezas a buscar fallas en el código, pero no encontras razón alguna hasta que ves el siguiente cartel:
 
 
