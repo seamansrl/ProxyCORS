@@ -52,8 +52,7 @@ GetData.open('POST', 'http://' + ip + '/……', true);
 Ahora deberá ser asi:
 
 ```javascript
-GetData.open('POST', 'http://localhost:19191?url=
-http://' + ip + '/……', true);
+GetData.open('POST', 'http://localhost:19191?url=http://' + ip + '/……', true);
 ```
 
 En caso que debamos hacer una autenticación BASIC no podremos usar el típico truco de mandarlo via URL (http://USUARIO:CLAVE@www.....), sino que deberemos insertar esos datos en el propio header asi:
